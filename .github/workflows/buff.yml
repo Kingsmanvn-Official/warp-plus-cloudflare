@@ -2,10 +2,6 @@ name: Buff Warp+
 
 on:
   workflow_dispatch:
-  push: 
-    branches: ['master']
-  schedule:
-    - cron: '0 0/3 * * *'
 
 jobs:
   Warp:
